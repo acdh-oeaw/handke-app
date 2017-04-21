@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div class="templates:surround?with=templates/page.html&amp;at=content">
+    <script src="$app-root/resources/js/openseadragon/openseadragon.min.js"/>
+    <div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary" id="zoom-in">Zoom In</button>
+            <button type="button" class="btn btn-primary" id="home">Default</button>
+            <button type="button" class="btn btn-primary" id="zoom-out">Zoom Out</button>
+            <button type="button" class="btn btn-primary" id="full-page">Full Sceen</button>
+        </div>
+        <div id="openseadragon1" style="width: 100%; height: 400px"/>
+    </div>
+    <script type="text/javascript">
+        var fetched_param = decodeURIComponent($.urlParam("facs"));
+        console.log(fetched_param);
+        var source = '../data/facs/'+fetched_param
+        var viewer = OpenSeadragon({
+        id: "openseadragon1",
+        tileSources: {
+            type: 'image',
+            url:  source
+        },
+        zoomInButton:   "zoom-in",
+        zoomOutButton:  "zoom-out",
+        homeButton:     "home",
+        fullPageButton: "full-page",
+        });
+    </script>
+</div>

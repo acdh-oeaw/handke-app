@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" n="1">Peter Handke: IMMER NOCH STURM (Textfassung 4)</title>
+                <title level="m">Peter Handke: Immer noch Sturm - Testedition Seite 1</title>
+
+                <author>
+                    <persName ref="http://d-nb.info/gnd/118545574">
+                        <forename>Peter</forename>
+                        <surname>Handke</surname>
+                    </persName>
+                </author>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                </editor>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/1001454-8">ÖAW-ACDH (Austrian Centre for Digital Humanities der Österreichischen Akademie der Wissenschaften)</orgName>
+                </funder>
+                <principal>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                    <affiliation>
+                        <orgName ref="http://d-nb.info/gnd/1001454-8">ÖAW-ACDH (Austrian Centre for Digital Humanities der Österreichischen Akademie der Wissenschaften)</orgName>
+                        <address>
+              <street>Sonnenfelsgasse 19</street>
+              <postCode>1010</postCode>
+              <settlement ref="http://d-nb.info/gnd/4066009-6">Wien</settlement>
+              <country ref="http://d-nb.info/gnd/4043271-3">Österreich</country>
+            </address>
+                    </affiliation>
+                </principal>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://d-nb.info/gnd/1001454-8">Österreichische Akademie der Wissenschaften</orgName>
+                </publisher>
+                <pubPlace>
+                    <settlement ref="http://d-nb.info/gnd/4066009-6">Wien</settlement>
+                </pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2017-03-20">
+                        <p>The Creative Commons Attribution 4.0 International license (CC BY 4.0) applies to this document.</p>
+                        <p>This license was added on 20 March 2017.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable transcriptions of the first page of the various text stages of Peter Handke's "Immer noch Sturm"</p>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier n="1">
+                        <country ref="http://d-nb.info/gnd/4043271-3">Österreich</country>
+                        <settlement ref="http://d-nb.info/gnd/4076982-3">Salzburg</settlement>
+                        <institution ref="http://d-nb.info/gnd/36184-7">Universität Salzburg</institution>
+                        <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                        <idno type="Signatur">Bestand: Handke, Peter</idno>
+                    </msIdentifier>
+                    <msIdentifier n="2">
+                        <country ref="http://d-nb.info/gnd/4043271-3">Österreich</country>
+                        <settlement ref="http://d-nb.info/gnd/4076982-3">Salzburg</settlement>
+                        <institution ref="http://d-nb.info/gnd/36184-7">Universität Salzburg</institution>
+                        <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                        <idno type="Signatur">Bestand: Handke, Peter (Leihgabe Widrich); PH-PAW/W1.3</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <title>IMMER NOCH STURM</title>
+                                <relatedItem type="published">
+                                    <bibl>
+                                        <title>Immer noch Sturm</title>
+                                        <author>
+                                            <persName ref="#handke_peter">
+                                                <forename>Peter</forename>
+                                                <surname>Handke</surname>
+                                            </persName>
+                                        </author>
+                                        <publisher>Suhrkamp</publisher>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date>2010</date>
+                                        <idno type="gnd">103440685X</idno>
+                                    </bibl>
+                                </relatedItem>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>paper</material>
+                                </support>
+                                <extent>
+                                    <measure unit="leaf" quantity="117"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="suhrkamp">
+                                <p>Typed on computer by Suhrkamp Verlag.</p>
+                            </handNote>
+                            <handNote xml:id="oberender">
+                                <p>Printed out and manual notes by <persName ref="#oberender_thomas">
+                                    <forename>Thomas</forename>
+                                    <surname>Oberender</surname>
+                                </persName>.</p>
+                            </handNote>
+                            <handNote xml:id="widrich">
+                                <p>Printed out by <persName ref="#widrich_hans">
+                                    <forename>Hans</forename>
+                                    <surname>Widrich</surname>
+                                </persName>.</p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <listEvent>
+                                <event type="totalduration" from="2010-04-01" to="2010-05-18">
+                                    <p>Erarbeitungsdauer</p>
+                                </event>
+                                <event type="Niederschrift" notBefore="2010-04-01" notAfter="2010-05-11" where="#berlin">
+                                    <p>Typed on computer and by <orgName ref="#suhrkampverlag">Suhrkamp Verlag</orgName>.</p>
+                                </event>
+                                <event type="Eingang" when-iso="2010-05-11" where="#salzburg">
+                                    <p>E-mail with the text file recieved by <persName ref="#oberender_thomas">
+                                        <forename>Thomas</forename>
+                                        <surname>Oberender</surname>
+                                    </persName>.</p>
+                                </event>
+                                <event type="Druck" notBefore="2010-05-11" where="#salzburg">
+                                    <p>Printed out and manual notes by <persName ref="#oberender_thomas">
+                                        <forename>Thomas</forename>
+                                        <surname>Oberender</surname>
+                                    </persName>.</p>
+                                </event>
+                                <event type="Eingang" when-iso="2010-05-18" where="#salzburg">
+                                    <p>E-mail with the text file recieved by <persName ref="#widrich_hans">
+                                        <forename>Hans</forename>
+                                        <surname>Widrich</surname>
+                                    </persName>.</p>
+                                </event>
+                                <event type="Druck" notBefore="2010-05-18" where="#salzburg">
+                                    <p>Printed out by <persName ref="#widrich_hans">
+                                        <forename>Hans</forename>
+                                        <surname>Widrich</surname>
+                                    </persName>.</p>
+                                </event>
+                            </listEvent>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>...</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE">German</language>
+                <language ident="sl-SI">Slovene</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader> 
+    <text>
+        <body>
+            <pb n="4" facs="IS_tf4.jpg"/>
+        <head>EINS</head>
+        <p>Eine Heide, eine Steppe, eine Heidesteppe, oder wo. Jetzt,<lb/>
+            im Mittelalter, oder wann. Was ist da zu sehen? Eine<lb/>
+            Sitzbank, eine eher zeitlose, im Mittelgrund, und daneben<lb/>
+            oder dahinter oder sonst wo ein Apfelbaum, behängt mit etwa<lb/>
+            neunundneunzig Äpfeln, Frühäpfeln, fast weißen, oder<lb/>
+            Spätäpfeln, dunkelroten. Sanft abschüssig erscheint diese<lb/>
+            Heide, heimelig. Wem zeigt sie sich? Wem erscheint sie so?<lb/>
+            Mir hier, im Augenblick. Ich habe sie vorzeiten, in einer<lb/>
+            anderen Zeit, gesehen, und sehe sie jetzt wieder, samt der<lb/>
+            Sitzbank, auf der ich einst mit meiner Mutter gesessen bin, an<lb/>
+            einem warmen stillen Sommer- oder Herbstnachmittag,<lb/>
+            glaube ich, weit weg vom Dorf irgendwo, und zugleich doch in<lb/>
+            der Heimatgegend. Ungewohnt weit war und ist jener<lb/>
+            Heimathorizont. Ob das Gedächtnis täuscht oder auch nicht:<lb/>
+            aus der einen, dann der anderen Ferne ein Angelusläuten.<lb/>
+            Und auch wenn das wieder eine Täuschung ist: im<lb/>
+            nachhinein scheint es, daß die Mutter und ich uns an der<lb/>
+            Hand halten. Überhaupt geschieht in meinem Gedächtnis da<lb/>
+            alles paarweise; die Vögel fliegen zu Paaren im Himmel, die<lb/>
+            Schmetterlinge flattern paarweise durch die Lüfte, paarweise<lb/>
+            schwirren auch die Libellen, usw. Das Apfelbäumchen freilich<lb/>
+            ist mir, zusammen mit den nachleuchtenden Äpfeln,<lb/>
+            solcherart in wieder einer anderen Zeit begegnet, in einer<lb/>
+            Nachtsekunde, in einem Tagtraum, oder wann. Ich bin<lb/>
+            zunächst dagesessen mit geschlossenen Augen. Jetzt<lb/>
+            schlage ich sie auf. Und was sehe ich nun? Meine Vorfahren<lb/>
+            treten auf, von allen Seiten, insbesondere aus dem<lb/>
+            Heidesteppenhintergrund (nur nicht vorn, wo ich meinen<lb/>
+            Sitz- oder Schauplatz eingenommen habe). Einzeln kommen<lb/>
+            sie daher, ausgenommen das Großelternpaar, einzeln die<lb/>            
+        </p>
+    </body>
+    </text>
+</TEI>

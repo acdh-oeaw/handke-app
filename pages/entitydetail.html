@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div class="templates:surround?with=templates/page.html&amp;at=content">
+    <style>
+        #mapid { height: 500px; }
+    </style>
+    <script src="$app-root/resources/js/leaflet/leaflet.js"/>
+    <link rel="stylesheet" href="$app-root/resources/js/leaflet/leaflet.css"/>
+    
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h1 style="text-align:center;">
+                <tr data-template="app:showEntityInfo"/>
+            </h1>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title" style="text-align:center;">
+                                    <a data-toggle="collapse" href="#collapse1">referenced by</a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse">
+                                <div class="panel-body" id="chart2">
+                                    <ul data-template="app:referencedBy"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title" style="text-align:center;">
+                                    <a data-toggle="collapse" href="#collapse2">references</a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse">
+                                <div class="panel-body" id="chart2">
+                                    <ul data-template="app:references"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div class="templates:surround?with=templates/page.html&amp;at=content">
+    <script src="../resources/js/highcharts/highcharts.js"/>
+    <script src="../resources/js/highcharts/highcharts-3d.js"/>
+    <script src="../resources/js/highcharts/exporting.js"/>
+    
+    <div class="panel panel-default" style="text-align:center;">
+        <div class="panel-heading">
+            <h2>Welches Tag wird wo wie oft verwendet</h2>
+        </div>
+        <div class="panel-body">
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse1">Usage of <strong id="selcted"/>
+                            </a>
+                        </h4>
+                    </div>
+                    <div class="panel-body">
+                        <div id="collapse1" class="panel-collapse">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <h4>Type a tei:tag</h4>
+                                        <input type="text" class="form-control" id="custom-tag"/>
+                                        <button type="button" class="btn btn-primary btn-block" onclick="myFunction()">Click2Viz</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-10" id="chart1"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">link2source</div>
+            </div>            
+        </div>
+    </div>
+    </div>
+    <script>
+
+function myFunction() {
+    var theValue = $('#custom-tag').val();
+    $("strong").text(theValue);
+    var endpoint = "../analyze/tag-usage.xql?tag="+theValue;
+    $(".panel-footer").text(endpoint);
+        console.log(endpoint);
+    $.getJSON("../analyze/tag-usage.xql?tag="+theValue, function (data) {  
+        console.log(data.tagname);
+        console.log(data.result.payload.item);
+        var newData =[];
+        var payload = data.result.payload;
+        for (var i = 0; i &lt; payload.length; i++) {
+            var items =[];
+            items.push(payload[i].item[0]);
+            items.push(parseInt((payload[i].item[1])));
+            newData.push(items)
+        }
+        console.log(newData);
+        
+        $(function () {
+            $('#chart1').highcharts({
+                chart: {
+                    type: 'column',
+                    options3d: {
+                        enabled: true,
+                        alpha: 20
+                    }
+                },
+                title: {
+                    text: ""
+                },
+                subtitle: {
+                    text: data.tagname
+                },
+                xAxis: {
+                    type: 'category',
+                    labels: {
+                        rotation: -45,
+                        style: {
+                            fontSize: '13px',
+                            fontFamily: 'Verdana, sans-serif'
+                        }
+                    }
+                },
+                yAxis: {
+                    min: data.ymin,
+                    title: {
+                        text: '# of occurrences'
+                    }
+                },
+                legend: {
+                    enabled: false
+                },
+                tooltip: {
+                },
+                series:[ {
+                    name: data.tagname,
+                    data: newData,
+                    dataLabels: {
+                        enabled: false,
+                        rotation: -90,
+                        color: '#FFFFFF',
+                        align: 'right',
+                        format: '{point.y:.1f}', // one decimal
+                        y: 10, // 10 pixels down from the top
+                        style: {
+                            fontSize: '13px',
+                            fontFamily: 'Verdana, sans-serif'
+                        }
+                    }
+                }]
+            });
+        });
+    });
+}
+
+
+    </script>
+    
+    
+    
+    
+    
+</div>

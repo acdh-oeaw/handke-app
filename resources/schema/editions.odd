@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="oddex1" start="TEI">
+        <moduleRef key="header"/>
+        <moduleRef key="core"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="namesdates"/>
+        <moduleRef key="msdescription"/>
+        <moduleRef key="textstructure"/>
+        <moduleRef key="linking"/>
+        <moduleRef key="transcr"/>
+
+        <elementSpec ident="idno" mode="change">
+          <attList>
+            <attDef ident="type" mode="replace">
+              <valList type="closed">
+                <valItem ident="gnd">
+                  <desc>GND identifier of the element in question, should be resolved against http://d-nb.info/gnd/</desc>
+                </valItem>
+                <valItem ident="geonames">
+                  <desc>geonames identifier of the element in question, should be resolved against http://www.geonames.org/</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="event" mode="change">
+          <attList>
+            <attDef ident="type" mode="replace">
+              <valList type="closed">
+                <valItem ident="Notizen">
+                  <desc>PLEASE ADD SOMETHING MEANINGFUL</desc>
+                </valItem>
+                <valItem ident="Reise">
+                  <desc>PLEASE ADD SOMETHING MEANINGFUL</desc>
+                </valItem>
+                <valItem ident="Niederschrift">
+                  <desc>PLEASE ADD SOMETHING MEANINGFUL</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

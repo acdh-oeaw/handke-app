@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div class="templates:surround?with=templates/page.html&amp;at=content">
+    <script src="$app-root/resources/js/tablesorter/js/jquery.tablesorter.js"/>
+    <script src="$app-root/resources/js/tablesorter/js/jquery.tablesorter.widgets.js"/>
+    <script src="$app-root/resources/js/tablesorter/js/jquery.tablesorter.pager.js"/>
+    <link rel="stylesheet" type="text/css" href="$app-root/resources/js/tablesorter/css/theme.bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="$app-root/resources/js/tablesorter/css/jquery.tablesorter.pager.css"/>
+    <script> $(function() { 
+        $("table").tablesorter(
+        { theme : "bootstrap", widthFixed: false,
+        headerTemplate : '{content} {icon}', widgets : [ "uitheme", "filter", "zebra" ], filter_cssFilter: "form-control"}
+        );
+        }); 
+    </script>
+    <script src="$app-root/resources/js/leaflet/leaflet.js"/>
+    <link rel="stylesheet" href="$app-root/resources/js/leaflet/leaflet.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="$app-root/resources/js/leaflet/MarkerCluster.css"/>
+    <link rel="stylesheet" type="text/css" href="$app-root/resources/js/leaflet/MarkerCluster.Default.css"/>
+    <script type="text/javascript" src="$app-root/resources/js/leaflet/markercluster_not_official.js"/>
+    <script type="text/javascript" src="$app-root/resources/js/leaflet/timeline/leaflet.timeline.min.js"/>
+    <link rel="stylesheet" type="text/css" href="$app-root/resources/js/leaflet/timeline/leaflet.timeline.min.css"/>
+    <style>
+
+        #map{
+        height: 500px;
+        }
+        .leaflet-bottom.leaflet-left{
+        width: 100%;
+        height: 500px;
+        }
+        }
+        .leaflet-control-container .leaflet-timeline-controls{
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+        
+        }
+       
+    </style>
+    <div class="container">
+        <h1>Events asfd</h1>
+        <table class="table table-striped table-condensed table-hover">
+            <thead>
+                <tr>
+                    <th class="header">
+                        Textfassung
+                    </th>
+                    <th>
+                        Eventtyp
+                    </th>
+                    <th>
+                        Beschreibung 
+                    </th>
+                    <th>
+                        von - bis 
+                    </th>
+                    <th>
+                        Orte  
+                    </th>
+                    <th>
+                        Personen   
+                    </th>
+                </tr>
+            </thead>
+            <tr data-template="app:listEvent"/>
+        </table>
+    <div id="map"/>
+        
+        <script type="text/javascript">
+            
+        $.getJSON( "../analyze/events2geojson.xql", function( data ) {
+            var geojson = data;
+            console.log(geojson) ;
+            var map = L.map('map').setView([44, 20], 2); 
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+            attribution: 'Map data &lt;a href="http://openstreetmap.org"&gt;OpenStreetMap&lt;/a&gt; contributors, &lt;a href="http://creativecommons.org/licenses/by-sa/2.0/"&gt;CC-BY-SA&lt;/a&gt;Imagery © &lt;a href="http://mapbox.com"&gt;Mapbox&lt;/a&gt;;',
+            maxZoom: 18,
+            id: 'mapbox.light',
+            accessToken: 'pk.eyJ1Ijoic2VubmllcmVyIiwiYSI6ImNpbHk1YWV0bDAwZnB2dW01d2l1Y3phdmkifQ.OljQLEhqeAygai2y6VoSwQ'
+            }).addTo(map);    
+            
+            var timelineControl = L.timelineSliderControl({
+            formatOutput: function(date) {
+            return new Date(date).toString();
+            }
+            });
+            
+            var timeline = L.timeline(data, {
+                pointToLayer: function(data, latlng){
+                var displaystring = "&lt;h3&gt;"+data.properties.eventtype+"&lt;/h3&gt;&lt;table class='table table-striped'&gt;&lt;tr&gt;&lt;td&gt;Wo:&lt;/td&gt;&lt;td&gt;"+data.properties.placename+"&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;von&lt;/td&gt;&lt;td&gt;"+data.properties.start+"&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;bis&lt;/td&gt;&lt;td&gt;"+data.properties.end+"&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Dokument&lt;/td&gt;&lt;td&gt;&lt;a href='"+data.properties.link+"'&gt;"+data.properties.title+"&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;";
+                    return L.marker(latlng, {
+                    riseOnHover: true,
+                    }).bindPopup(displaystring);
+                }
+            });
+            timelineControl.addTo(map);
+            timelineControl.addTimelines(timeline);
+            timeline.addTo(map);
+        });
+        
+        </script>
+
+    </div>
+</div>

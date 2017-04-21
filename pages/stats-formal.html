@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div class="templates:surround?with=templates/page.html&amp;at=content">
+    <script src="../resources/js/highcharts/highcharts.js"/>
+    <script src="../resources/js/highcharts/highcharts-3d.js"/>
+    <script src="../resources/js/highcharts/exporting.js"/>
+    
+    <div class="panel panel-default" style="text-align:center;">
+        <div class="panel-heading">
+            <h2>Streichungen und Einfügungen</h2>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" href="#collapse1">Usage of <strong>tei:del</strong>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse">
+                                <div class="panel-body" id="chart1">Panel Body</div>
+                                <div class="panel-footer">
+                                    <a href="../analyze/tag-usage.xql">data source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" href="#collapse2">Usage of <strong>tei:add</strong>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse">
+                                <div class="panel-body" id="chart2">Panel Body</div>
+                                <div class="panel-footer">
+                                    <a href="../analyze/tag-usage.xql?tag=add">data source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4/>
+            </div>
+        </div>
+
+    </div>
+    
+    
+    <script type="text/javascript">
+        
+        $(document).ready(function() {
+        $.getJSON( "../analyze/tag-usage.xql", function( data ) {
+            console.log(data.tagname) ;
+            console.log(data.result.payload.item) ;
+            var newData = [];
+            var payload = data.result.payload;
+            for (var i = 0; i &lt; payload.length; i++) {
+            var items = [];
+            items.push(payload[i].item[0]);
+            items.push(parseInt((payload[i].item[1])));
+            newData.push(items)
+            }
+            console.log(newData);
+                
+                $(function () {
+                $('#chart1').highcharts({
+                chart: {
+                type: 'column',
+                options3d: {
+                enabled: true,
+                alpha: 20
+                }
+                },
+                title: {
+                text: ""
+                },
+                subtitle: {
+                text: data.tagname
+                },
+                xAxis: {
+                type: 'category',
+                labels: {
+                rotation: -45,
+                style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+                }
+                }
+                },
+                yAxis: {
+                min: data.ymin,
+                title: {
+                text: '# of occurrences'
+                }
+                },
+                legend: {
+                enabled: false
+                },
+                tooltip: {
+                },
+                series: [{
+                name: data.tagname,
+                data: newData,
+                dataLabels: {
+                enabled: false,
+                rotation: -90,
+                color: '#FFFFFF',
+                align: 'right',
+                format: '{point.y:.1f}', // one decimal
+                y: 10, // 10 pixels down from the top
+                style: {
+                fontSize: '13px',
+                fontFamily: 'Verdana, sans-serif'
+                }
+                }
+                }]
+                });
+                });
+            });
+            
+            $.getJSON( "../analyze/tag-usage.xql?tag=add", function( data ) {
+            console.log(data.tagname) ;
+            console.log(data.result.payload.item) ;
+            var newData = [];
+            var payload = data.result.payload;
+            for (var i = 0; i &lt; payload.length; i++) {
+            var items = [];
+            items.push(payload[i].item[0]);
+            items.push(parseInt((payload[i].item[1])));
+            newData.push(items)
+            }
+            console.log(newData);
+            
+            $(function () {
+            $('#chart2').highcharts({
+            chart: {
+            type: 'column',
+            options3d: {
+            enabled: true,
+            alpha: 20
+            }
+            },
+            title: {
+            text: ""
+            },
+            subtitle: {
+            text: data.tagname
+            },
+            xAxis: {
+            type: 'category',
+            labels: {
+            rotation: -45,
+            style: {
+            fontSize: '13px',
+            fontFamily: 'Verdana, sans-serif'
+            }
+            }
+            },
+            yAxis: {
+            min: data.ymin,
+            title: {
+            text: '# of occurrences'
+            }
+            },
+            legend: {
+            enabled: false
+            },
+            tooltip: {
+            },
+            series: [{
+            name: data.tagname,
+            data: newData,
+            dataLabels: {
+            enabled: false,
+            rotation: -90,
+            color: '#FFFFFF',
+            align: 'right',
+            format: '{point.y:.1f}', // one decimal
+            y: 10, // 10 pixels down from the top
+            style: {
+            fontSize: '13px',
+            fontFamily: 'Verdana, sans-serif'
+            }
+            }
+            }]
+            });
+            });
+            });
+        });
+    </script>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>A little application to publish the first page of all text witnesses of Peter Handke's "Immer noch Sturm"</description>
+    <author>Peter Andorfer</author>
+    <website>http://tei2016.acdh.oeaw.ac.at/</website>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>handke-app</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    <permissions xmlns:repo="http://exist-db.org/xquery/repo" password="" user="admin" group="dba" mode="rw-rw-r--"/>
+
+</meta>

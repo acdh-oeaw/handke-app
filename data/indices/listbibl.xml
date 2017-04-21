@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List of works and contributors</title>
+                <author>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://d-nb.info/gnd/1001454-8">Österreichische Akademie der Wissenschaften</orgName>
+                </publisher>
+                <pubPlace>
+                    <settlement ref="http://d-nb.info/gnd/4066009-6">Wien</settlement>
+                </pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2017-03-20">
+                        <p>The Creative Commons Attribution 4.0 International license (CC BY 4.0) applies to this document.</p>
+                        <p>This license was added on 20 March 2017.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This list was assembled manually.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+<listBibl>
+    <bibl xml:id="tf1">
+        <author ref="#handke_peter"/>
+        <editor ref="#hannesschlaeger_vanessa"/>
+        <persName role="inspiration" ref="#haderlap_anton"/>
+        <title key="IS_tf1.xml">STORM STILL. Eine Tragödie in fünf Akten (Textfassung 1)</title>
+    </bibl>
+    <bibl xml:id="tf2a">
+        <author ref="#handke_peter"/>
+        <editor ref="#hannesschlaeger_vanessa"/>
+        <persName role="transcription" ref="#weidner_gudrun"/>
+        <persName role="correction" ref="#handke_peter"/>
+        <title key="IS_tf2a.xml">STORM STILL (Immer noch Sturm). Eine Tragödie in fünf Akten (Textfassung 2a)</title>
+    </bibl>
+    <bibl xml:id="tf2b">
+        <author ref="#handke_peter"/>
+        <editor ref="#hannesschlaeger_vanessa"/>
+        <persName role="transcription" ref="#weidner_gudrun"/>
+        <persName role="correction" ref="#handke_peter"/>
+        <title key="IS_tf2b.xml">IMMER NOCH STURM. Eine Tragödie (Textfassung 2b)</title>
+    </bibl>
+    <bibl xml:id="tf3">
+        <author ref="#handke_peter"/>
+        <editor ref="#hannesschlaeger_vanessa"/>
+        <persName role="transcription" ref="#weidner_gudrun"/>
+        <persName role="correction" ref="#handke_peter"/>
+        <title key="IS_tf3.xml">IMMER NOCH STURM (Textfassung 3)</title>
+    </bibl>
+    <bibl xml:id="tf4">
+        <author ref="#handke_peter"/>
+        <editor ref="#hannesschlaeger_vanessa"/>
+        <orgName role="transcription" ref="#suhrkampverlag"/>
+        <persName role="reciever" ref="#oberender_thomas #widrich_hans"/>
+        <title key="IS_tf4.xml">IMMER NOCH STURM (Textfassung 4)</title>
+    </bibl>
+    <bibl xml:id="tf5a">
+        <author ref="#handke_peter"/>
+        <editor ref="#hannesschlaeger_vanessa"/>
+        <orgName role="transcription" ref="#suhrkampverlag"/>
+        <persName role="reciever" ref="#widrich_hans"/>       
+        <title key="IS_tf5a.xml">IMMER NOCH STURM (Textfassung 5a)</title>
+    </bibl>
+    <bibl xml:id="tf5b">
+        <author ref="#handke_peter"/>
+        <editor ref="#hannesschlaeger_vanessa"/>
+        <orgName role="transcription" ref="#suhrkampverlag"/>
+        <persName role="correction" ref="#handke_peter"/>        
+        <title key="IS_tf5b.xml">IMMER NOCH STURM (Textfassung 5b)</title>
+    </bibl>
+    <bibl xml:id="fahnen1">
+        <author ref="#handke_peter"/>
+        <editor ref="#hannesschlaeger_vanessa"/>
+        <orgName role="transcription" ref="#suhrkampverlag"/>  
+        <persName role="correction" ref="#hafner_fabjan"/>
+        <title key="IS_Fahnen_1lf.xml">Peter Handke: Immer noch Sturm (Druckfahnen 1. Lauf)</title>
+    </bibl>
+    <bibl xml:id="fahnen2">
+        <author ref="#handke_peter"/>
+        <editor ref="#hannesschlaeger_vanessa"/>
+        <orgName role="transcription" ref="#suhrkampverlag"/>
+        <persName role="correction" ref="#hafner_fabjan #haslinger_adolf"/>
+        <title key="IS_Fahnen_2lf.xml">Peter Handke: Immer noch Sturm (Druckfahnen 2. Lauf)</title>
+    </bibl>
+</listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

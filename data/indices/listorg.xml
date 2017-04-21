@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List of organisations</title>
+                <author>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://d-nb.info/gnd/1001454-8">Österreichische Akademie der Wissenschaften</orgName>
+                </publisher>
+                <pubPlace>
+                    <settlement ref="http://d-nb.info/gnd/4066009-6">Wien</settlement>
+                </pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2017-03-20">
+                        <p>The Creative Commons Attribution 4.0 International license (CC BY 4.0) applies to this document.</p>
+                        <p>This license was added on 20 March 2017.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This list was assembled manually.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <listOrg>
+                    <org xml:id="suhrkampverlag">
+                        <orgName>Suhrkamp Verlag</orgName>
+                        <placeName ref="#berlin"/>                       
+                    </org>
+                    <org xml:id="acdh">
+                        <orgName>Austrian Centre for Digital Humanities, Austrian Academy of Sciences</orgName>
+                        <placeName ref="#wien"/>
+                    </org>
+                    <org xml:id="festspiele">
+                        <orgName>Salzburger Festspiele</orgName>
+                        <placeName ref="#salzburg"/>
+                    </org>
+                </listOrg>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Involved persons</title>
+                <author>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://d-nb.info/gnd/1001454-8">Österreichische Akademie der Wissenschaften</orgName>
+                </publisher>
+                <pubPlace>
+                    <settlement ref="http://d-nb.info/gnd/4066009-6">Wien</settlement>
+                </pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2017-03-20">
+                        <p>The Creative Commons Attribution 4.0 International license (CC BY 4.0) applies to this document.</p>
+                        <p>This license was added on 20 March 2017.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This list was assembled manually.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <listPerson>
+                    <person xml:id="haslinger_adolf">
+                        <persName ref="http://d-nb.info/gnd/122491688">
+                        <forename>Adolf</forename>
+                        <surname>Haslinger</surname>
+                    </persName>
+                        <residence ref="#salzburg"/>
+                    </person>
+                    <person xml:id="haderlap_anton">
+                        <persName ref="http://d-nb.info/gnd/133884317">
+                            <forename>Anton</forename>
+                            <surname>Haderlap</surname>
+                        </persName>
+                        <residence ref="#koroska"/>
+                    </person>
+                    <person xml:id="weidner_gudrun">
+                        <persName>
+                            <forename>Gudrun</forename>
+                            <surname>Weidner</surname>
+                        </persName>
+                        <residence ref="#frankfurt"/>
+                    </person>
+                    <person xml:id="oberender_thomas">
+                        <persName ref="http://d-nb.info/gnd/122086228">
+                            <forename>Thomas</forename>
+                            <surname>Oberender</surname>
+                        </persName>
+                        <residence ref="#salzburg"/>
+                        <affiliation ref="#festspiele"/>
+                    </person>
+                    <person xml:id="hafner_fabjan">
+                        <persName ref="http://d-nb.info/gnd/130584797">
+                            <forename>Fabjan</forename>
+                            <surname>Hafner</surname>
+                        </persName>
+                        <residence ref="#koroska"/>
+                    </person>
+                    <person xml:id="widrich_hans">
+                        <persName ref="http://d-nb.info/gnd/1098449665">
+                            <forename>Hans</forename>
+                            <surname>Widrich</surname>
+                        </persName>
+                        <residence ref="#salzburg"/>
+                    </person>
+                    <person xml:id="handke_peter">
+                        <persName ref="http://d-nb.info/gnd/118545574">
+                            <forename>Peter</forename>
+                            <surname>Handke</surname>
+                        </persName>
+                        <residence ref="#chaville"/>
+                    </person>
+                    <person xml:id="andorfer_peter">
+                        <persName ref="http://viaf.org/viaf/251032539">
+                            <forename>Peter</forename>
+                            <surname>Andorfer</surname>
+                        </persName>
+                        <affiliation ref="#acdh"/>
+                    </person>
+                    <person xml:id="hannesschlaeger_vanessa">
+                        <persName ref="http://viaf.org/viaf/31146030596135862230">
+                            <forename>Vanessa</forename>
+                            <surname>Hannesschläger</surname>
+                        </persName>
+                        <affiliation ref="#acdh"/>
+                    </person>                    
+                </listPerson>
+            </div>
+        </body>
+    </text>
+</TEI>

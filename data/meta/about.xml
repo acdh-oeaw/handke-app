@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>About</title>
+                <author>
+                    <persName>
+                        <forename>Peter</forename>
+                        <surname>Andorfer</surname>
+                    </persName>
+                </author>
+                    <author>
+                    <persName>
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>ACDH-OeAW</publisher>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2017"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) License applies
+                            to this text.</p>
+                        <p>The CC BY 4.0 License also applies to this TEI XML file.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>born digital</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>About this website</head>
+                <p>This is an app to examine possibilities of showing the process of a text coming into being. We used Peter Handkes <q>Immer noch Sturm</q> as our sample text, as more than ten text witnesses as well as extensive acompanying material (notes, etc.) makes it a good example to show the difficulties of encoding and the benefits of a proper code for the depiction of complex text genetic processes.</p>
+                <p>This work was inspired by the call of the Robert-Musil-Institut Klagenfurt for the conference <q>Textgenese in der digitalen Edition</q>. For more details on the inspiration and motivation to build this app, please see the following abstract.</p>
+                <div>
+                    <head>Wenn sich ein digitaler Sturm zusammenbraut</head>
+                    <head>TEI markup und seine Verarbeitung: Pilotstudie zu den vielen Textfassungen von Peter Handkes <q>Immer noch Sturm</q>
+                    </head>
+                    <p>Peter Handkes Bühnentext <q>Immer noch Sturm</q> (2010) eignet sich ideal für eine Studie zur Modellierung und Verarbeitung von literaturwissenschaftlichen textgenetischen Daten: Übernimmt man die Einteilung der Textzeugen, wie sie auf der Plattform <ref target="https://handkeonline.onb.ac.at/">Handkeonline</ref> vorgenommen wurde, handelt es sich um fünf Fassungen vor den Druckfahnen (wobei einige Fassungen in weitere Unterstufen [a, b, c, etc.] geteilt werden können). Die zahlreichen kleinen und größeren Veränderungen, die Handke von Fassung zu Fassung vornahm, aber auch die vom Autor während der ersten Niederschrift und den Überarbeitungen angefertigten Beiblätter, machen den Text zum optimalen Ausgangsmaterial, um die Möglichkeiten und Grenzen der digitalen Annotation textgenetischer Prozesse auszuloten und auf Basis dessen die Verarbeitung und Umsetzung der so generierten Daten zu erproben.</p>
+                    <p>In unserem Vortrag möchten wir eine Pilotstudie vorstellen, in der wir die jeweils erste Seite sämtlicher Textfassungen von <q>Immer noch Sturm</q> transkribiert und mit TEI P5 markup versehen haben. Das Encoding orient sich dabei an konkreten textgenetischen, literaturwissenschaftlichen Fragestellungen (etwa, wie Sofort- von nachträglichen Korrekturen und Überarbeitungen im Zuge der erneuten Niederschrift in der Darstellung unterschieden werden können, oder wie nachweisbare Integration von vorbereitender Lektüre durch den Autor oder seine auf Beiblättern angefertigten Notizen integriert werden können), aus denen Anforderungen für eine Web-Applikation abgeleitet werden. Ziel dieser Web-Applikation ist es nämlich, den Forschungs- und Analyseprozess dieser textgenetischen Daten zu Handkes <q>Immer noch Sturm</q> bestmöglich zu unterstützen.</p>
+                    <p>Neben den annotierten Daten und der Vorstellung der prototypischen Web-Applikation steht im Vortrag vor allem aber die Reflektion traditioneller literaturwissenschaftlicher Forschung im digitalen Zeitalter und deren Konsequenzen und Möglichkeiten im Vordergrund.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

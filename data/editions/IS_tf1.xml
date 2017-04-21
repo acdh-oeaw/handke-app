@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" n="1">Peter Handke: STORM STILL. Eine Tragödie in fünf Akten (Textfassung 1)</title>
+                <title level="m">Peter Handke: Immer noch Sturm - Testedition Seite 1</title>
+                <author>
+                    <persName ref="http://d-nb.info/gnd/118545574">
+                        <forename>Peter</forename>
+                        <surname>Handke</surname>
+                    </persName>
+                </author>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                </editor>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/1001454-8">ÖAW-ACDH (Austrian Centre for Digital Humanities der Österreichischen Akademie der Wissenschaften)</orgName>
+                </funder>
+                <principal>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                    <affiliation>
+                        <orgName ref="http://d-nb.info/gnd/1001454-8">ÖAW-ACDH (Austrian Centre for Digital Humanities der Österreichischen Akademie der Wissenschaften)</orgName>
+                        <address>
+              <street>Sonnenfelsgasse 19</street>
+              <postCode>1010</postCode>
+              <settlement ref="http://d-nb.info/gnd/4066009-6">Wien</settlement>
+              <country ref="http://d-nb.info/gnd/4043271-3">Österreich</country>
+            </address>
+                    </affiliation>
+                </principal>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://d-nb.info/gnd/1001454-8">Österreichische Akademie der Wissenschaften</orgName>
+                </publisher>
+                <pubPlace>
+                    <settlement ref="http://d-nb.info/gnd/4066009-6">Wien</settlement>
+                </pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2017-03-20">
+                        <p>The Creative Commons Attribution 4.0 International license (CC BY 4.0) applies to this document.</p>
+                    <p>This license was added on 20 March 2017.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable transcriptions of the first page of the various text stages of Peter Handke's "Immer noch Sturm"</p>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="http://d-nb.info/gnd/4043271-3">Österreich</country>
+                        <settlement ref="http://d-nb.info/gnd/4076982-3">Salzburg</settlement>
+                        <institution ref="http://d-nb.info/gnd/36184-7">Universität Salzburg</institution>
+                        <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                        <idno>Bestand: Handke, Peter; LAS</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <title>
+                                    <hi rend="underlined">STORM STILL</hi>
+                                    <lb/>
+                                    <del>(Fortdauernder Sturm)</del>
+                                    <lb/>
+                                    <del>(Anhaltender Sturm)</del>
+                                    <lb/>
+                                    <del>(Weiter im Sturm)</del>
+                                    <lb/>
+                                    <del>(Weiterhin Sturm)</del>
+                                    <lb/>
+                                    <del>(Immer noch Sturm)</del>
+                                    <lb/>
+                                    <hi rend="underlined">Eine Tragödie</hi>
+                                    <lb/>
+                                    <hi rend="underlined">in fünf Akten</hi>
+                                </title>
+                                <relatedItem type="published">
+                                        <bibl>
+                                            <title>Immer noch Sturm</title>
+                                            <author>
+                                                <persName ref="#handke_peter">
+                                                    <forename>Peter</forename>
+                                                    <surname>Handke</surname>
+                                                </persName>
+                                            </author>
+                                            <publisher>Suhrkamp</publisher>
+                                            <pubPlace>Berlin</pubPlace>
+                                            <date>2010</date>
+                                            <idno type="gnd">103440685X</idno>
+                                        </bibl>
+                                </relatedItem>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>paper</material>
+                                </support>
+                                <extent>
+                                    <measure unit="leaf" quantity="91"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="handke_blei">
+                                <p>Written in pencil by <persName ref="#handke_peter">
+                                    <forename>Peter</forename>
+                                    <surname>Handke</surname>
+                                </persName>.</p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <listEvent>
+                                <event type="totalduration" from="1980" to="2009-02-22">
+                                    <p>Erarbeitungsdauer</p>
+                                </event>
+                                <event type="Notizen" from="2002-11-06" to="2008-06-21" where="#chaville">
+                                    <p>Preparatory reading (and notes) of <bibl>Karel Prušnik-Gašper: Gemsen auf der Lawine. Der Kärntner Partisanenkampf. Celovec: Drava 1980</bibl> by <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>.</p>
+                                </event>
+                                <event type="Notizen" notBefore="1980" where="#chaville">
+                                    <p>Preparatory reading (and notes) of 
+                                        <bibl>Gregor Siutz: Sadjarstvo! Maribor 1936</bibl>
+                                        by <persName ref="#handke_peter">
+                                            <forename>Peter</forename>
+                                            <surname>Handke</surname>
+                                        </persName>.</p>
+                                </event>
+                                <event type="Notizen" notBefore="2007" notAfter="2009-02-22" where="#chaville">
+                                    <p>Preparatory reading (and notes) of 
+                                        <bibl>Tone Jelen: Auf den Spuren der Hoffnung. Odyssee eines Kärntner Slowenen 1938-1945. Celovec: Drava 2007</bibl>
+                                        by <persName ref="#handke_peter">
+                                            <forename>Peter</forename>
+                                            <surname>Handke</surname>
+                                        </persName>.</p>
+                                </event>
+                                <event type="Notizen" notBefore="1984" notAfter="2009-02-22" where="#chaville">
+                                    <p>Preparatory reading (and notes) of 
+                                        <bibl>Helena Kuchar: Jelka. Aus dem Leben einer Kärntner Partisanin. Celovec: Drava 1984</bibl>
+                                        by <persName ref="#handke_peter">
+                                            <forename>Peter</forename>
+                                            <surname>Handke</surname>
+                                        </persName>.</p>
+                                </event>
+                                <event type="Notizen" notBefore="2008-01-01" notAfter="2009-02-22" where="#chaville">
+                                    <p>Preparatory reading (and notes) of 
+                                        <bibl>Anton Haderlap: Graparji. So haben wir gelebt. Erinnerungen eines Kärntner Slowenen an Frieden und Krieg. Celovec: Drava 2008</bibl>
+                                        by <persName ref="#handke_peter">
+                                            <forename>Peter</forename>
+                                            <surname>Handke</surname>
+                                        </persName>.</p>
+                                </event>
+                                <event type="Notizen" notBefore="2008-01-01" notAfter="2009-02-22" where="#chaville">
+                                    <p>Preparatory reading (and notes) of 
+                                        <bibl>Franc Kukovica: Als uns die Sprache verboten wurde. Celovec: Drava 2008</bibl>
+                                        by <persName ref="#handke_peter">
+                                            <forename>Peter</forename>
+                                            <surname>Handke</surname>
+                                        </persName>.</p>
+                                </event>
+                                <event type="Notizen" notBefore="2006" notAfter="2009-02-22" where="#chaville">
+                                    <p>Preparatory reading (and notes) of 
+                                        <bibl>Lisa Rettl / Vida Obid: Partisanenkinder. Überleben, weiterleben / Partizanski otroci. Preživeti, živeti. Celovec: Drava 2006</bibl>
+                                        by <persName ref="#handke_peter">
+                                            <forename>Peter</forename>
+                                            <surname>Handke</surname>
+                                        </persName>.</p>
+                                </event>
+                                <event type="Notizen" notBefore="2008-09-28" where="#chaville">
+                                    <p>Preparatory reading (and notes) of 
+                                        <bibl>Anton Haderlap: Pesmi. Celovec: Klub prijateljev lova 1982</bibl>
+                                        by <persName ref="#handke_peter">
+                                            <forename>Peter</forename>
+                                            <surname>Handke</surname>
+                                        </persName>.</p>
+                                </event>
+                                <event type="Reise" when-iso="2008-09-28" where="#koroska">
+                                    <p>Trip to Carinthia and visit to <persName ref="#haderlap_anton">
+                                            <forename>Anton</forename> <surname>Haderlap</surname>
+                                    </persName> by <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>.
+                                    </p>
+                                </event>
+                                <event type="Notizen" notBefore="2007" notAfter="2009-02-22" where="#chaville">
+                                    <p>Preparatory reading (and notes) of a preprint of
+                                        <bibl>Lipej Kolenik: Von Neuem. Die Kärntner Slowenen unter der britischen Besatzungsmacht nach 1945. Celovec: Drava 2008</bibl>
+                                        by <persName ref="#handke_peter">
+                                            <forename>Peter</forename>
+                                            <surname>Handke</surname>
+                                        </persName>.</p>
+                                </event>                               
+                                <event type="Niederschrift" when-iso="2008-12-15" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>'s first writing day: "15. Dezember 2008".</p>
+                                </event>
+                                    <event type="Niederschrift" when-iso="2008-12-16" where="#chaville">
+                                        <p>
+                                        <persName ref="#handke_peter">
+                                            <forename>Peter</forename>
+                                            <surname>Handke</surname>
+                                        </persName>, writing day: "16. Dez. 2008".</p>
+                                    </event>
+                                <event type="Niederschrift" when-iso="2008-12-17" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "17. Dez. 2008".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2008-12-18" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "18. Dez. 2008".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2008-12-19" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "19. Dez. 2008".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2008-12-20" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "20. Dezember 2008".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2008-12-21" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "21. Dez. 2008".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2008-12-22" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "22. Dezember 2008".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2008-12-23" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "23. Dezember 2008".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2008-12-24" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "24. Dez. 2008".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2008-12-25" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "25. Dezember 2008".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2008-12-26" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "26. Dezember 2008".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2008-12-27" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "27. Dez. 2008".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2008-12-28" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "28. Dezember 2008".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-03" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "3. Januar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-04" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "4. Januar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-05" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "5. Januar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-06" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "6. Januar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-07" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "7. Januar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-08" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "8. Januar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-09" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "9. Jan. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-10" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "10. Jan. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-11" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "11. Januar 2009".</p>
+                                </event>
+                                <event type="Reise" from="2009-01-12" to="2009-01-16" where="#mokragora #visegrad #cacak">
+                                    <p>Trip by <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName> to "Mokra Gora, Čeček, Višegrad".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-17" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "17. Januar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-18" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "18. Jan. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-19" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "19. Januar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-20" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "20. Januar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-21" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "21. Jan. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-22" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "22. Jan. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-23" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "23. Jan. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-24" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "24. Jan. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-25" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "25. Jan. 2009".</p>
+                                </event>
+                                <event type="Notizen" from="2009-01-26" to="2009-01-28" where="#chaville">
+                                    <p>"3 [Tage] Exzerp[ieren] P[artisanen]-Literatur" by <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>.</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-29" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "29. Jan. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-30" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "30. Januar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-01-31" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "31. Jan. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-01" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "1. Febr. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-02" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "2. Februar 2009, Ma[ria] Lichtmeß".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-03" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "3. Februar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-04" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "4. Februar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-05" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "5. Februar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-06" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "6. Februar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-04" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "7. Februar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-08" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "8. Febr. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-09" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "9. Februar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-13" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "13. Febr. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-14" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "14. Febr. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-15" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "15. Febr. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-16" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "16. Februar 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-17" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, writing day: "17. Febr. 2009".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-18" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>'s (first) last writing day: "18. Febr. 2009"; end of initial writin process on "18. Februar 2009" at "19h46".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-19" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, minor text additions: "(19. Febr. 2009)".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-20" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, minor text additions: "(20. Febr. 2009)".</p>
+                                </event>
+                                <event type="Niederschrift" when-iso="2009-02-22" where="#chaville">
+                                    <p>
+                                        <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>, minor text additions: "(22. Febr. 2009)".</p>
+                                </event>   
+                            </listEvent>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>...</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+            </creation>
+            <langUsage>
+                <language ident="de-DE">German</language>
+                <language ident="sl-SI">Slovene</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader> 
+    <text hand="#handke_blei">
+        <body>
+            <pb n="1" facs="IS_tf1.jpg"/>
+        <head>I</head> 
+            <note place="margin-left">
+                <date when="2008-12-15">15. Dezember<lb/>2008</date>
+            </note>
+        <p>Eine Heide, eine Steppe, eine Heidesteppe, oder wo.<lb/>
+            Jetzt, im Mittelalter, oder wann. Was ist da zu sehen?<lb/>
+            <del>Nichts, oder</del> Eine Sitzbank, eine eher zeitlose,<add place="above">
+                    <del>oder was,</del>
+                </add> im Mittel=<lb break="no"/>
+            grund<del>,</del> oder wo, und daneben oder dahinter oder sonstwo<lb/>
+            ein Apfelbaum, behängt mit etwa neunundneunzig Äpfeln,<lb/>
+            Frühäpfeln, fast weißen, oder Spätäpfeln, dunkelroten.<lb/>
+            Sanft abschüssig erscheint diese Heide, oder was sie ist,<lb/>
+            heimelig. Wem zeigt sie sich? Wem erscheint sie so? Mir<lb/>
+            hier, oder sonstwem, im Augenblick. Ich, oder wer, habe<lb/>
+            sie vorzeiten so gesehen, und sehe sie jetzt wieder, samt der<lb/>
+            Sitzbank, auf der ich einst mit meiner Mutter gesessen<lb/>
+            bin, an einem<add place="above"> warmen stillen</add> Sommer- oder Herbstnachmittag, glaube<lb/>
+            ich, weit weg vom Dorf irgendwo, und zugleich doch in der<lb/>
+            Heimatgegend<del>, oder wo</del>. Ungewohnt weit war und ist<lb/>
+            jener Heimathorizont. Das Apfelbäumchen freilich ist<lb/>
+            mir, zusammen mit den nachleuchtenden Äpfeln,<add place="above"> solcherart</add> in einer ganz<lb/>
+            anderen Zeit begegnet, in einer Nachtsekunde, in einem<lb/>
+            Tagtraum, oder wann.<add place="above"> Ich bin zunächst dagesessen mit geschlossenen Augen. Jetzt schlage ich sie <lb/>
+            auf.</add> Und was sehe ich nun? Meine<lb/>
+            Vorfahren treten auf, von allen Seiten, insbesondere aus<lb/>
+            dem Heidensteppenhintergrund (nur nicht vorn, wo ich<lb/>
+            meinen Sitz- oder Schauplatz eingenommen habe, wieder<lb/>
+            einmal, vielleicht zum letzten Male in diesem Theater).<lb/>
+            <sic>Eineln</sic> kommen sie daher, ausgenommen das Großeltern=<lb break="no"/>
+            paar, einzeln kommt die von klein auf mehr oder weniger<lb/>
+            oder<add place="above"> vielleicht</add> auch gar nicht verwirrte Schwester meiner Mutter<lb/>
+            und <seg xml:id="trans1">einzeln</seg> <seg xml:id="trans2">ebenso</seg> kommen<add place="above"> mir</add> deren drei Brüder daher=<lb break="no"/>
+            gewandert, jeder auf einem eigenen Weg, oder Nichtweg.<add place="above">Der jüngste purzelt eher daher, <unclear reason="illegible">faßt sich sollen</unclear>
+                    <lb/>
+                    <unclear reason="illegible">???</unclear>
+                    <lb/>über=<lb break="no"/>mütig.</add>
+            Einzeln steuert ein jeder auf den ihm scheint's vorgegebenen<lb/>
+            Ort<del>,</del> oder Stehplatz zu, bis auf meine Großeltern wieder,<lb/>
+            welche sich auf die Bank setzen. Gar nicht alt ist das<lb/>
+            Paar, und ausnahmslos jung deren vier Kinder, selbst<lb/>
+            der Erstgeborene, der Einäugige dort mit dem dichten<lb/>
+            Schnurrbart, geboren doch ziemlich lang vor den andern.<lb/>
+            Der jüngste der Söhne ist fast noch ein Kind, und<lb/>
+            meine Mutter erscheint mir buchstäblich blutjung, und<lb/>
+            beinah als heimliche Geliebte des mittleren Bruders, des<lb/>
+            </p>
+            <p>
+                <listTranspose>
+                    <transpose>
+                        <ptr target="#trans2"/>
+                        <ptr target="#trans1"/>
+                    </transpose>
+                </listTranspose>        
+            </p>      
+            <pb/>
+    </body>
+    </text>
+</TEI>

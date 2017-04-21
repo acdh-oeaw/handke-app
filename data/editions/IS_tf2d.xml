@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" n="1">Peter Handke: (Storm Still) IMMER NOCH STURM. Ein Drama in fünf Akten (Textfassung 2d)</title>
+                <title level="m">Peter Handke: Immer noch Sturm - Testedition Seite 1</title>
+                <author>
+                    <persName ref="http://d-nb.info/gnd/118545574">
+                        <forename>Peter</forename>
+                        <surname>Handke</surname>
+                    </persName>
+                </author>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                </editor>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/1001454-8">ÖAW-ACDH (Austrian Centre for Digital Humanities der Österreichischen Akademie der Wissenschaften)</orgName>
+                </funder>
+                <principal>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                    <affiliation>
+                        <orgName ref="http://d-nb.info/gnd/1001454-8">ÖAW-ACDH (Austrian Centre for Digital Humanities der Österreichischen Akademie der Wissenschaften)</orgName>
+                        <address>
+              <street>Sonnenfelsgasse 19</street>
+              <postCode>1010</postCode>
+              <settlement ref="http://d-nb.info/gnd/4066009-6">Wien</settlement>
+              <country ref="http://d-nb.info/gnd/4043271-3">Österreich</country>
+            </address>
+                    </affiliation>
+                </principal>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://d-nb.info/gnd/1001454-8">Österreichische Akademie der Wissenschaften</orgName>
+                </publisher>
+                <pubPlace>
+                    <settlement ref="http://d-nb.info/gnd/4066009-6">Wien</settlement>
+                </pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2017-03-20">
+                        <p>The Creative Commons Attribution 4.0 International license (CC BY 4.0) applies to this document.</p>
+                        <p>This license was added on 20 March 2017.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable transcriptions of the first page of the various text stages of Peter Handke's "Immer noch Sturm"</p>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="http://d-nb.info/gnd/4043271-3">Österreich</country>
+                        <settlement ref="http://d-nb.info/gnd/4076982-3">Salzburg</settlement>
+                        <institution ref="http://d-nb.info/gnd/36184-7">Universität Salzburg</institution>
+                        <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                        <idno type="Signatur">Bestand: Handke, Peter; LAS</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <title>(Storm Still)<lb/>
+                                    <hi rend="underlined">IMMER NOCH STURM</hi>
+                                    <lb/>
+                                    <del>
+                                        <hi rend="underlined">Tragödie</hi> in fünf Akten</del>
+                                    <lb/>
+                                    <hi rend="underlined">Ein Drama in fünf Akten</hi>
+                                </title>
+                                <relatedItem type="published">
+                                    <bibl>
+                                        <title>Immer noch Sturm</title>
+                                        <author>
+                                            <persName ref="#handke_peter">
+                                                <forename>Peter</forename>
+                                                <surname>Handke</surname>
+                                            </persName>
+                                        </author>
+                                        <publisher>Suhrkamp</publisher>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date>2010</date>
+                                        <idno type="gnd">103440685X</idno>
+                                    </bibl>
+                                </relatedItem>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>paper</material>
+                                </support>
+                                <extent>
+                                    <measure unit="leaf" quantity="173"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="weidner">
+                                <p>Typed on computer and printed out by <persName ref="#weidner_gudrun">
+                                    <forename>Gudrun</forename>
+                                    <surname>Weidner</surname>
+                                </persName>.</p>
+                            </handNote>
+                            <handNote xml:id="handke">
+                                <p>Manually corrected with pencil by <persName ref="#handke_peter">
+                                    <forename>Peter</forename>
+                                    <surname>Handke</surname>
+                                </persName>.</p>
+                            </handNote>
+                            <handNote xml:id="weidner2">
+                                <p>Manually corrected by <persName ref="#weidner_gudrun">
+                                    <forename>Gudrun</forename>
+                                    <surname>Weidner</surname>
+                                </persName>.</p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <listEvent>
+                                <event type="totalduration" from="2009-07-27" to="2009-11-23">
+                                    <p>Erarbeitungsdauer</p>
+                                </event>
+                                <event type="Niederschrift" notBefore="2009-07-27" notAfter="2009-08-31" where="#frankfurt">
+                                    <p>Typed on computer and printed out by <persName ref="#weidner_gudrun">
+                                        <forename>Gudrun</forename>
+                                        <surname>Weidner</surname>
+                                    </persName>.</p>
+                                </event>
+                                <event type="Korrektur" notBefore="2009-08-01" notAfter="2009-09-24" where="#chaville">
+                                    <p>Corrected (up to page 27) by <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>.</p>
+                                </event>
+                                <event type="Korrektur" notBefore="2009-09-24" notAfter="2009-10-31" where="#chaville">
+                                    <p>Second correction by <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>.</p>
+                                </event>
+                                <event type="Notizen" when-iso="2009-11-07" where="#chaville">
+                                    <p>Notes for further additional text and corrections by <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>.</p>
+                                </event>
+                                <event type="Kopie" notBefore="2009-10-31" notAfter="2009-11-23" where="#chaville">
+                                    <p>Copied by <persName ref="#handke_peter">
+                                        <forename>Peter</forename>
+                                        <surname>Handke</surname>
+                                    </persName>.</p>
+                                </event>
+                                <event type="Eingang" notBefore="2009-11-23" where="#frankfurt">
+                                    <p>Corrected manuscript recieved by <persName ref="#weidner_gudrun">
+                                        <forename>Gudrun</forename>
+                                        <surname>Weidner</surname>
+                                    </persName>.</p>
+                                </event>
+                                <event type="Korrektur" notBefore="2009-11-23" where="#frankfurt">
+                                    <p>Manually corrected by <persName ref="#weidner_gudrun">
+                                        <forename>Gudrun</forename>
+                                        <surname>Weidner</surname>
+                                    </persName>.</p>
+                                </event>
+                            </listEvent>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>...</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE">German</language>
+                <language ident="sl-SI">Slovene</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader> 
+    <text>
+        <body>
+            <pb n="1" facs="IS_tf2c_2d.jpg"/>
+            <head>ERSTER AKT</head>
+            <p>Eine Heide, eine Steppe, eine Heidesteppe, oder wo. Jetzt, im<lb/>
+                Mittelalter, oder wann. Was ist da zu sehen? Eine Sitzbank,<lb/>
+                eine eher zeitlose, im Mittelgrund<del hand="#handke"> oder wo</del>, und daneben oder<lb/>
+                dahinter oder sonst wo ein Apfelbaum, behängt mit etwa neun-<lb break="no"/>
+                undneunzig Äpfeln, Frühäpfeln, fast weißen, oder Spätäpfeln,<lb/>
+                dunkelroten. Sanft abschüssig erscheint diese Heide, <del hand="#handke">oder was
+                    <lb/>
+                    sie ist,</del> heimelig. Wem zeigt sie sich? Wem erscheint sie so?<lb/>
+                Mir hier, <del hand="#handke">oder sonst wem, </del>im Augenblick. Ich<del hand="#handke">, oder wer,</del> habe<lb/>
+                sie vorzeiten gesehen, und sehe sie jetzt wieder, samt der<lb/>
+                Sitzbank, auf der ich einst mit meiner Mutter gesessen bin,<lb/>
+                an einem warmen stillen Sommer- oder Herbstnachmittag, glaube<lb/>
+                ich, weit weg vom Dorf irgendwo, und zugleich doch in der<lb/>
+                Heimatgegend. Ungewohnt weit war und ist jener Heimat-<lb break="no"/>
+                horizont. Das Apfelbäumchen freilich ist mir, zusammen mit<lb/>
+                den nachleuchtenden Äpfeln, solcherart in einer ganz anderen<lb/>
+                Zeit begegnet, in einer Nachtsekunde, in einem Tagtraum, oder<lb/>
+                wann. Ich bin zunächst dagesessen mit geschlossenen Augen.<lb/>
+                Jetzt schlage ich sie auf. Und was sehe ich nun? Meine<lb/>
+                Vorfahren treten auf, von allen Seiten, insbesondere aus dem<lb/>
+                Heidesteppenhintergrund (nur nicht vorn, wo ich meinen Sitz-<lb/>
+                oder Schauplatz eingenommen habe, wieder einmal, vielleicht<lb/>
+                zum letzten Male in diesem Theater). Einzeln kommen sie<lb/>            
+            </p>
+        </body>
+    </text>
+</TEI>

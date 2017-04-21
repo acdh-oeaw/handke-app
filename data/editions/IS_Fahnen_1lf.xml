@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" n="1">Peter Handke: Immer noch Sturm (Druckfahnen 1. Lauf)</title>
+                <title level="m">Peter Handke: Immer noch Sturm - Testedition Seite 1</title>
+                <author>
+                    <persName ref="http://d-nb.info/gnd/118545574">
+                        <forename>Peter</forename>
+                        <surname>Handke</surname>
+                    </persName>
+                </author>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                </editor>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/1001454-8">ÖAW-ACDH (Austrian Centre for Digital Humanities der Österreichischen Akademie der Wissenschaften)</orgName>
+                </funder>
+                <principal>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                    <affiliation>
+                        <orgName ref="http://d-nb.info/gnd/1001454-8">ÖAW-ACDH (Austrian Centre for Digital Humanities der Österreichischen Akademie der Wissenschaften)</orgName>
+                        <address>
+              <street>Sonnenfelsgasse 19</street>
+              <postCode>1010</postCode>
+              <settlement ref="http://d-nb.info/gnd/4066009-6">Wien</settlement>
+              <country ref="http://d-nb.info/gnd/4043271-3">Österreich</country>
+            </address>
+                    </affiliation>
+                </principal>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <persName ref="http://d-nb.info/gnd/1095917986">
+                        <forename>Vanessa</forename>
+                        <surname>Hannesschläger</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://d-nb.info/gnd/1001454-8">Österreichische Akademie der Wissenschaften</orgName>
+                </publisher>
+                <pubPlace>
+                    <settlement ref="http://d-nb.info/gnd/4066009-6">Wien</settlement>
+                </pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/" notBefore="2017-03-20">
+                        <p>The Creative Commons Attribution 4.0 International license (CC BY 4.0) applies to this document.</p>
+                        <p>This license was added on 20 March 2017.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable transcriptions of the first page of the various text stages of Peter Handke's "Immer noch Sturm"</p>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country ref="http://d-nb.info/gnd/4043271-3">Österreich</country>
+                        <institution>private ownership</institution>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <title>Immer noch Sturm</title>
+                                <relatedItem type="published">
+                                    <bibl>
+                                        <title>Immer noch Sturm</title>
+                                        <author>
+                                            <persName ref="http://d-nb.info/gnd/118545574">
+                                                <forename>Peter</forename>
+                                                <surname>Handke</surname>
+                                            </persName>
+                                        </author>
+                                        <publisher>Suhrkamp</publisher>
+                                        <pubPlace>Berlin</pubPlace>
+                                        <date>2010</date>
+                                        <idno type="gnd">103440685X</idno>
+                                    </bibl>
+                                </relatedItem>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>PDF-file</material>
+                                </support>
+                                <extent>
+                                    <measure unit="page" quantity="168"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="suhrkamp">
+                                <p>Made by <orgName ref="#suhrkampverlag">Suhrkamp Verlag</orgName>.</p>
+                            </handNote>
+                            <handNote xml:id="hafner">
+                                <p>Printed and manually corrected with green fineliner by <persName ref="#hafner_fabjan">
+                                    <forename>Fabjan</forename>
+                                    <surname>Hafner</surname>
+                                </persName>.</p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <listEvent>
+                                <event type="totalduration" from="2010-07-21" to="2010-08-09"><p>Erarbeitungsdauer</p></event>
+                                <event type="Niederschrift" when="2010-07-21" where="#berlin">
+                                    <p>Made by <orgName ref="#suhrkampverlag">Suhrkamp Verlag</orgName>.</p>
+                                </event>
+                                <event type="Korrektur" notBefore="2010-07-21" notAfter="2010-08-09" where="#celovec">
+                                    <p>Printed and manually corrected by <persName ref="#hafner_fabjan">
+                                        <forename>Fabjan</forename>
+                                        <surname>Hafner</surname>
+                                    </persName>.</p>
+                                </event>
+                            </listEvent>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>...</p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE">German</language>
+                <language ident="sl-SI">Slovene</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader> 
+    <text>
+        <body>
+        <head>EINS</head>
+        <p>Eine Heide, eine Steppe, eine Heidesteppe, oder wo. Jetzt,<lb/>
+            im Mittelalter, oder wann. Was ist da zu sehen? Eine Sitz-<lb break="no"/>
+            bank, eine eher zeitlose, im Mittelgrund, und daneben oder<lb/>
+            dahinter oder sonst wo ein Apfelbaum, behängt mit etwa<lb/>
+            neunundneunzig Äpfeln, Frühäpfeln, fast weißen, oder Spät-<lb break="no"/>
+            äpfeln, dunkelroten. Sanft abschüssig erscheint diese Heide,<lb/>
+            heimelig. Wem zeigt sie sich? Wem erscheint sie so? Mir hier,<lb/>
+            im Augenblick. Ich habe sie vorzeiten, in einer anderen Zeit,<lb/>
+            gesehen, und sehe sie jetzt wieder, samt der Sitzbank, auf der<lb/>
+            ich einst mit meiner Mutter gesessen bin, an einem warmen<lb break="no"/>
+            stillen Sommer- oder Herbstnachmittag, glaube ich, fern vom<lb/>
+            Dorf, und zugleich in der Heimatgegend. Ungewohnt weit<lb/>
+            war und ist jener Heimathorizont. Ob das Gedächtnis täuscht<lb/>
+            oder nicht: aus der einen, dann der anderen Ferne ein An-<lb break="no"/>
+            gelusläuten. Und auch wenn das wieder eine Täuschung ist:<lb/>
+            im nachhinen scheint es, daß die Mutter und ich uns an der<lb/>
+            Hand halten. Überhaupt geschieht in meinem Gedächtnis da<lb/>
+            alles paarweise; die Vögel fliegen zu Paaren im Himmel, die<lb/>
+            Schmetterlinge flattern paarweise durch die Lüfte, paarweise<lb/>
+            schwirren die Libellen, undsoweiter. Das Apfelbäumchen<lb/>
+            freilich ist mir, zusammen mit den nachleuchtenden Äpfeln,<lb/>
+            solcherart in wieder einer anderen Zeit begegnet, in einer<lb/>
+            Nachtsekunde, in einem Tagtraum, oder wann. Ich bin zu-<lb break="no"/>
+            nächst dagesessen mit geschlossenen Augen. Jetzt schlage ich</p>
+    </body>
+    </text>
+</TEI>
